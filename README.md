@@ -2,21 +2,20 @@
  
  <img src="https://github.com/ItamarGouveia/rocketseat-ignite-delivery/blob/master/src/assets/screenshot.png" alt="A preview of the running app on a MacBook pro" width="900px" />
 
-### An awesome app to get a coffee, no matter where you are.
 
-# Features
+# Recursos
 
-- [x] User can see a list of available coffees
-- [x] User can add an item to cart
-- [x] User can remove an item from cart
-- [x] User can increase/decrease a single item quantity in the cart
-- [x] User can see the quantity of a given product in the cart, in the header, without navigating to the checkout page
-- [x] User can finish an order
-- [x] User can use his/her own location as address in the checkout page
-- [x] User can't place an order without passing an address
-- [ ] Apply automated tests
+- [x] O usuário pode ver uma lista de cafés disponíveis
+- [x] O usuário pode adicionar um item ao carrinho
+- [x] O usuário pode remover um item do carrinho
+- [x] O usuário pode aumentar/diminuir a quantidade de um único item no carrinho
+- [x] O usuário pode ver a quantidade de um determinado produto no carrinho, no cabeçalho, sem navegar até a página de checkout
+- [x] O usuário pode finalizar um pedido
+- [x] O usuário pode usar sua própria localização como endereço na página de checkout
+- [x] O usuário não pode fazer um pedido sem passar um endereço
 
-# Techs and tools used
+
+# Tecnologias e ferramentas utilizadas
 
 * React JS
 
@@ -26,27 +25,21 @@
 
 * Phosphor Icons
 
-* React Toastify
-
 * Axios
-
-* Eruda
-
-* React Router Dom
 
 * HERE Geolocation API
 
-# How to run locally
+# Como 'rodar' localmente
 
-> First you must clone this repo on your machine
+> Primeiro você deve clonar este repositório em sua máquina
 
-Once clone this repo, in a terminal/shell of your choice, navigate to the folder of the project and install the dependencies, either by running ` yarn `  or by running ` npm install `.
+Depois de clonar este repositório, em um terminal/shell de sua escolha, navegue até a pasta do projeto e instale as dependências, seja executando ` yarn` ou executando ` npm install `.
 
-After that, environment variables must be set, which of them you can see it's names in the ` .env.example ` file in root of the project's folder..
+Depois disso, as variáveis ​​de ambiente devem ser definidas, quais delas você pode ver seus nomes no arquivo ` .env.example ` na raiz da pasta do projeto.
 
-Once setup is done, project can be executed by running ` yarn dev ` or by running ` npm run dev `, and open the url, that appears in the terminal, in an browser of your choice.
+Feito a configuração, o projeto pode ser executado executando ` yarn dev ` ou executando ` npm run dev `, e abra a url, que aparece no terminal, em um navegador de sua escolha.
 
 
-Figma's layout  [here.](https://www.figma.com/file/2iH6UUBPgcPkRco1kNRK8P/Coffee-Delivery-Copy)
+Layout Figma [aqui.](https://www.figma.com/file/vfVK0S5piygzGIxTspIO80/Coffee-Delivery-(Copy))
 
-> Developed on mobile device using Termux.  :D
+
